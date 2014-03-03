@@ -21,6 +21,7 @@
 		098AD79A18C50529006C5BB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD77C18C50528006C5BB1 /* UIKit.framework */; };
 		098AD7A218C50529006C5BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 098AD7A018C50529006C5BB1 /* InfoPlist.strings */; };
 		098AD7A418C50529006C5BB1 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 098AD7A318C50529006C5BB1 /* Git_TestTests.m */; };
+		098AD7AF18C50888006C5BB1 /* BCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 098AD7AE18C50888006C5BB1 /* BCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		098AD79F18C50529006C5BB1 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		098AD7A118C50529006C5BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		098AD7A318C50529006C5BB1 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		098AD7AD18C50888006C5BB1 /* BCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTest.h; sourceTree = "<group>"; };
+		098AD7AE18C50888006C5BB1 /* BCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				098AD78E18C50528006C5BB1 /* BCViewController.m */,
 				098AD79018C50528006C5BB1 /* Images.xcassets */,
 				098AD77F18C50528006C5BB1 /* Supporting Files */,
+				098AD7AD18C50888006C5BB1 /* BCTest.h */,
+				098AD7AE18C50888006C5BB1 /* BCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098AD7AF18C50888006C5BB1 /* BCTest.m in Sources */,
 				098AD78F18C50528006C5BB1 /* BCViewController.m in Sources */,
 				098AD78518C50528006C5BB1 /* main.m in Sources */,
 				098AD78918C50528006C5BB1 /* BCAppDelegate.m in Sources */,
